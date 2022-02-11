@@ -39,6 +39,13 @@ php artisan make:factory CategoryFactory --model=Category
 php artisan make:factory ProductFactory --model=Product  
 php artisan db:seed  
 
+#####4. Create Product Details Page
+php artisan make:livewire DetailsComponent    
+
+#####5. Shopping Cart
+
+
+
 #####4. Admin and User Authetication  
 // composer require laravel/Jetstream  
 // php artisan jetstream:install livewire  
